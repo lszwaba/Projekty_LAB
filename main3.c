@@ -78,6 +78,9 @@ void warunki(int num, char  *in[]){
       else if(strcmp(in[1],tb)==0){
         showUpper(in[2]);
       }
+      else if(strcmp(in[1],tb)!=0){
+        printf("Niepoprawna funkcja\n");
+      }
   }
   else{
     printf("Niepodano pliku\n");
