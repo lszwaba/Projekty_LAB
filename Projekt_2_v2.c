@@ -18,6 +18,7 @@ void toFile(int a, char *string[]){
     for(int i=2;i<a;i++){
         printf("%s ",string[i]);
     }
+    printf("\n" );
   }
 }
 
@@ -52,7 +53,7 @@ void conditions(int number,char *arg[]){
         if(checkIfTxt(arg[1])==0)
            toFile(number,arg); /*wykonujemy dalej*/
         else
-          printf("Nie podano pliku do zapisu");
+          printf("Nie podano pliku do zapisu\n");
     }
 }
 
